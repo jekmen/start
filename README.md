@@ -1,17 +1,21 @@
-# start
-angular 2 quick project
+# angular2-webpack
 
-First you need update npm, lite-server and typescript:
+[![Dependency Status](https://david-dm.org/preboot/angular2-webpack/status.svg)](https://david-dm.org/preboot/angular2-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular2-webpack/dev-status.svg)](https://david-dm.org/preboot/angular2-webpack#info=devDependencies)
 
-sudo npm update -g && sudo npm install -g concurrently lite-server typescript
 
-Delete node_modules folder from your Angular project directory (if exist). Next run:
+>Warning: Make sure you're using the latest version of Node.js and NPM
 
-npm install
+[Is Angular 2 Ready Yet?](http://splintercode.github.io/is-angular-2-ready/)
 
-After that resolve ENOSPC errors:
+### Quick start
 
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-Finally:
+```bash
+# install the dependencies with npm
+$ npm install
 
-npm start
+# start the server
+$ npm start
+```
+
+
+
